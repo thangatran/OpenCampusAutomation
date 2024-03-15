@@ -52,6 +52,7 @@ Feature: Open Campus Quests API
     And Verify User cannot complete TWITTER_RETWEET_OCT quest due to used X profile
     And Verify User cannot complete TWITTER_POST_ABOUT_OCID quest due to used X profile
 
+  @OC_Quests_negative
   Scenario: Verify unauthorized error when calling quest apis with bad token
     Given User logs in Open Campus
     Then Verify user cannot view quests with null login cookie
