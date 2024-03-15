@@ -27,7 +27,7 @@
    - Can add break points for debugging
 
 ## Technologies used: 
-   Java, Cucumber, TestNg, RestAssurer API, Allure Report
+   Java, Cucumber, TestNg, RestAssured API, Allure Report
 
 ## Cucumber Scenarios
  * Test scenarios are defined under src/test/java/features
